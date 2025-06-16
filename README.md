@@ -1,4 +1,4 @@
-# HalbachMRIDesigner
+# HalbachMRIDesigner 
 This tool can create an OpenSCAD geometry of a halbach cylinder which generates a homogeneous magnetic field inside. It can also generate the files needed, to perform a FEM simulation with Gmsh + GetDP.
 The design is fully parameterized so that it can easily be adapted. The parameters of the magnet are encapsulated in a json file. In addition to parameters, custom SCAD code can be specified in the json file, so that structures which are not parameterized, ie coil mounting planes, can be realized. An example can be found in examples/mri1.json.
 
